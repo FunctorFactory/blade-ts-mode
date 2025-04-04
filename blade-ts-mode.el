@@ -1,4 +1,4 @@
-;;; blade-ts-mode.el --- Tree-sitter support for Blade template files  -*- lexical-binding: t; -*-
+;;; blade-ts-mode.el --- Tree-sitter based major mode for Blade template files  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2025  Jake Shilling
 
@@ -7,7 +7,7 @@
 ;; Keywords: languages, php, blade, web, tree-sitter
 ;; URL: https://github.com/FunctorFactory/blade-ts-mode
 ;; Version: 0.0.1
-;; Package-Requires: ((emacs "29.1"), (web-mode))
+;; Package-Requires: ((emacs "29.1") (web-mode))
 ;; License: GPL-3.0-or-later
 ;; Keywords: languages, php, tree-sitter
 
@@ -26,7 +26,7 @@
 
 ;;; Commentary:
 
-;; A Tree-sitter based major mode for editing Blade template files.
+;; Tree-sitter based major mode for Blade template files
 
 ;;; Code:
 
